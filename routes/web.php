@@ -22,3 +22,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/book-catalog', 'CheckoutsController@index');
 
 Route::get('/checked-out', 'CheckoutsController@show');
+
+Route::get('/available', 'CheckoutsController@available');
+
+Route::post('/book-catalog', 'CheckoutsController@create');
+
+Route::post('/books/checkout', 'CheckoutsController@checkout');
+
+Route::delete('/books/checkout', 'CheckoutsController@destroy');
+
+Route::delete('/books/remove', 'CheckoutsController@remove');

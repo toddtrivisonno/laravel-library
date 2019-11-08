@@ -85,10 +85,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Will</a>
-                    <a href="https://laracasts.com">Is</a>
-                    <a href="https://laravel-news.com">Dumb</a>
                     <a href="http://127.0.0.1:8000/book-catalog">Book Catalog</a>
+                    <a href="http://127.0.0.1:8000/available">Available Books</a>
                     <a href="http://127.0.0.1:8000/checked-out">Checked Out</a>
                 </div>
             </div>
